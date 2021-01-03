@@ -18,16 +18,9 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 /**
  * Client Events
  */
-client.on("ready", () => {
-   function randomStatus() {
- let status = ["ily all", "MUSIC", "98 guilds", "k?help | k?play"]
-let rstatus = Math.floor(Math.random() * status.length);
 
-client.user.setActivity(status[rstatus], {type: "WATCHING" });
-}; setInterval(randomStatus, 30000)
 
 console.log('Ready for playing music')
-})
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
 
