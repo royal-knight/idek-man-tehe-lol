@@ -6,7 +6,7 @@ dependencies:
   ffmpeg-static: 4.2.7
   lyrics-finder: 21.4.0
   simple-youtube-api: 5.2.1
-  soundcloud-downloader: 0.2.1
+  soundcloud-downloader: 0.2.2
   string-progressbar: 1.0.1
   ytdl-core: 4.1.4
 packages:
@@ -126,12 +126,12 @@ packages:
     dev: false
     resolution:
       integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=
-  /axios/0.21.0:
+  /axios/0.21.1:
     dependencies:
-      follow-redirects: 1.13.0
+      follow-redirects: 1.13.1
     dev: false
     resolution:
-      integrity: sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+      integrity: sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   /balanced-match/1.0.0:
     dev: false
     resolution:
@@ -326,12 +326,12 @@ packages:
     requiresBuild: true
     resolution:
       integrity: sha512-SGnOr2d+k0/9toRIv9t5/hN/DMYbm5XMtG0wVwGM1tEyXJAD6dbcWOEvfHq4LOySm9uykKL6LMC4eVPeteUnbQ==
-  /follow-redirects/1.13.0:
+  /follow-redirects/1.13.1:
     dev: false
     engines:
       node: '>=4.0'
     resolution:
-      integrity: sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
+      integrity: sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
   /fs-minipass/2.1.0:
     dependencies:
       minipass: 3.1.3
@@ -782,16 +782,16 @@ packages:
     dev: false
     resolution:
       integrity: sha512-vmndP9Bkh35tifn2OwY+th2imSsfYtmDqczgdOW5yEARFzvSoR8VSQFsivJnctfV5QHQUL6VrOpNdbmDRLh9Bg==
-  /soundcloud-downloader/0.2.1:
+  /soundcloud-downloader/0.2.2:
     dependencies:
       '@babel/runtime': 7.12.5
-      axios: 0.21.0
+      axios: 0.21.1
       dotenv: 8.2.0
       m3u8stream: 0.8.3
       soundcloud-key-fetch: 1.0.11
     dev: false
     resolution:
-      integrity: sha512-zMbI3CjJ4B5U3RiWp1GIqpEiIzmFOToG3oJaSzayDaGXgggb07g5HU/uU91Z0bhfowvVRgSlbWYH9nhf74qFxA==
+      integrity: sha512-VIxnEEPZn3Hwkrf61pV9VdcnigARhtvHUvAbeUMeLQln6Kx26XARAfuoEv2F9r6SC6UtH/TWdxT8yW3oAYKUJQ==
   /soundcloud-key-fetch/1.0.11:
     dev: false
     resolution:
@@ -923,6 +923,6 @@ specifiers:
   ffmpeg-static: ^4.2.7
   lyrics-finder: ^21.4.0
   simple-youtube-api: ^5.2.1
-  soundcloud-downloader: ^0.2.1
+  soundcloud-downloader: ^0.2.2
   string-progressbar: ^1.0.1
   ytdl-core: ^4.1.3
