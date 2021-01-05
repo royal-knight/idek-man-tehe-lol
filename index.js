@@ -4,7 +4,7 @@
 const { Client, Collection } = require("discord.js");
 const { readdirSync } = require("fs");
 const { join } = require("path");
-const { TOKEN, PREFIX } = require("./util/EvobotUtil");
+const { TOKEN, PREFIX} = require("./util/EvobotUtil");
 
 const client = new Client({ disableMentions: "everyone" });
 
@@ -20,7 +20,7 @@ const escapeRegex = (str) => str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
  */
 
 
-console.log('Ready for playing music')
+console.log('Ready for playing music and everything else lol')
 client.on("warn", (info) => console.log(info));
 client.on("error", console.error);
 
