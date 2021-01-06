@@ -6,9 +6,9 @@ dependencies:
   ffmpeg-static: 4.2.7
   lyrics-finder: 21.4.0
   simple-youtube-api: 5.2.1
-  soundcloud-downloader: 0.2.2
+  soundcloud-downloader: 0.2.3
   string-progressbar: 1.0.1
-  ytdl-core: 4.4.0
+  ytdl-core: 4.4.1
   ytdl-core-discord: 1.2.5
 packages:
   /@babel/runtime/7.12.5:
@@ -787,7 +787,7 @@ packages:
     dev: false
     resolution:
       integrity: sha512-vmndP9Bkh35tifn2OwY+th2imSsfYtmDqczgdOW5yEARFzvSoR8VSQFsivJnctfV5QHQUL6VrOpNdbmDRLh9Bg==
-  /soundcloud-downloader/0.2.2:
+  /soundcloud-downloader/0.2.3:
     dependencies:
       '@babel/runtime': 7.12.5
       axios: 0.21.1
@@ -796,7 +796,7 @@ packages:
       soundcloud-key-fetch: 1.0.11
     dev: false
     resolution:
-      integrity: sha512-VIxnEEPZn3Hwkrf61pV9VdcnigARhtvHUvAbeUMeLQln6Kx26XARAfuoEv2F9r6SC6UtH/TWdxT8yW3oAYKUJQ==
+      integrity: sha512-nhSxOPYg3eRRbuLAOqMN/JxGrCHEN9OSLIBJnB7RaBYT7N4B1/4lJXGIq1vVw4OIsBTOiEbeMJxWKMA4i95LRw==
   /soundcloud-key-fetch/1.0.11:
     dev: false
     resolution:
@@ -935,6 +935,16 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-9ceiEL5iM0OULciBySzoZA91YyxqnlHd3aeqf5r3S8rNgPGLDn11fJeEsKO1jQ1t/eYO1dK4zTkrIH7S497cyg==
+  /ytdl-core/4.4.1:
+    dependencies:
+      m3u8stream: 0.8.3
+      miniget: 4.1.0
+      sax: 1.2.4
+    dev: false
+    engines:
+      node: '>=10'
+    resolution:
+      integrity: sha512-VRqJ1pPEfIt7Lja2bKaTRqO47GfVbqhFfKqtmxU5Pp2BM0HUb0gVyf3wL9HlA+Vb4OblXs2MzSqWI8Fi1sSk4Q==
 registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 9
 shrinkwrapVersion: 3
@@ -946,7 +956,7 @@ specifiers:
   ffmpeg-static: ^4.2.7
   lyrics-finder: ^21.4.0
   simple-youtube-api: ^5.2.1
-  soundcloud-downloader: ^0.2.2
+  soundcloud-downloader: ^0.2.3
   string-progressbar: ^1.0.1
-  ytdl-core: ^4.4.0
+  ytdl-core: ^4.4.1
   ytdl-core-discord: ^1.2.5
